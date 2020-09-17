@@ -1,0 +1,122 @@
+@import './backgrounds.css';
+@import './animateStyle.scss';
+
+.side3-parent-div{
+    margin: 60px 0;
+  // box-shadow: 1px 1px 10px 6px #1d1616;
+  border: 1px solid black;
+}
+.side3-main-div{
+
+  // background-image: url("../../images/areYouReady.jpg");
+  // background-color: rgba(0, 0, 0, 0.5); /* Used if the image is unavailable */
+  // color: rgb(223, 221, 221);
+  // /* height: 500px; You must set a specified height */
+  // background-position: center; /* Center the image */
+  // background-repeat: no-repeat; /* Do not repeat the image */
+  // background-size: cover; /* Resize the background image to cover the entire container */
+  // opacity: 60%;
+  // border: 3px solid white;
+    width: 100%;
+    height: fit-content;
+    // height: 430px;
+    background-color: #352b2b;
+    box-shadow: 1px 1px 10px 6px #1d1616;
+    // overflow: hidden;
+    margin: 55px 0;
+
+  }
+  .side3-main-div .side3-slider{
+    height: 400px;
+  }
+.side3-main-div div{
+    // margin: 5px solid red;
+    width: 100%;
+}
+.side3-main-div div div{
+  // margin: 2px solid red;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  // width: 100%;
+  // height: 400px;
+}
+
+.side3-main-div div h2{
+  // margin: 5px solid red; 
+  // text-align: center;
+  width: 100%;
+  // align-self: center;
+  // display: flex;
+// padding: auto;
+margin-bottom: 60px;
+// background-color: transparent;
+    text-align: center;
+
+  // opacity: 99%;
+  color: #c6d3e7;
+  font-size: 42px;
+
+}
+.side3-main-div div div .img{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  // z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-shadow: 1px 1px 10px 6px #8a7d7d;
+
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .side3-parent-div{
+      margin: 0;
+      border: 0px solid black;
+  }
+  .side3-main-div{
+  // margin: 1px solid red; 
+  width: 100%;
+  height: 320px;
+  
+  }
+  .side3-main-div .side3-slider{
+    height: fit-content;
+  }
+  .side3-main-div div div .img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  .side3-main-div div h2{
+    margin-bottom: 0px;
+    font-size: 35px;
+    padding: 0 45px;
+  }
+}
+
+.#{$root-element} {
+    &--scaleOutAnimation {
+      --scale-out-scale: 0.85;
+  
+      .#{$root-element} {
+        &--exit {
+          &.#{$root-element}--moveRight,
+          &.#{$root-element}--moveLeft {
+            animation: scaleOut var(--slider-transition-duration) both
+              var(--transition-bezier);
+          }
+        }
+      }
+    }
+  }
+  
+  @keyframes scaleOut {
+    to {
+      transform: scale(var(--scale-out-scale));
+    }
+  }

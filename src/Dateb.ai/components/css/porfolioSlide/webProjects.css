@@ -1,0 +1,39 @@
+.webProjects{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.webProjects img{
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    width: 45%;
+    height: 330px;
+    margin: 30px;
+    box-shadow: 1px 1px 10px 6px #3a3232;
+
+
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile: */
+    .webProjects{
+        /* border: 1px solid red; */
+        display: block;
+        /* flex-wrap: wrap; */
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .webProjects img{
+        /* border: 1px solid red; */
+        border-radius: 4px;
+        width: 95%;
+        height: 200px;
+        margin: 5px;
+        box-shadow: 1px 1px 10px 6px #3a3232;
+    
+    
+    }
+}

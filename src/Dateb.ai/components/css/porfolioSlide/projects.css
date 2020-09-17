@@ -1,0 +1,46 @@
+.minDivPojects{
+    background-image: url("../../images/projects.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width: 100%;
+    height: fit-content;
+    color: #c6d3e7;
+    text-align: center;
+    /* display: flex; */
+    overflow: hidden;
+  
+    color: white;
+    box-shadow: 1px 1px 8px 8px #4e4242;
+}
+.opacity-Projects{
+    width: 100%;
+    color: #c6d3e7;
+    /* background-color: #24272c; */
+    height: 100%;
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* color: #92abcf; */
+    overflow: hidden;
+
+}
+.main-grid5{
+    padding: 0 0 30px 0; 
+    margin: 0;
+    overflow: hidden;
+
+}
+.main-grid5 .grid2{
+    padding: 0;
+
+}
+.main-grid5 .grid1{padding: 23px}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile: */
+    .main-grid5{
+         display: flex;
+         flex-direction: column-reverse;}
+    .main-grid5 .grid1{padding: 8px}
+    .main-grid5 .grid1, .main-grid5 .grid2{ width: 100%}
+}

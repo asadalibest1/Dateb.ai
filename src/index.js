@@ -1,14 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
 import * as serviceWorker from './serviceWorker';
 
+import App from './Dateb.ai/App';
+
+// import App from './prac/textChangeAnimation/index'
+// import App from './prac/autoImageTextSlider/index'
+// import App from './prac/componenetTrans.js';
+// import App from './prac/awesomeSlider.js';
+// import App from './prac/react-anime.js';
+// import App from './prac/New folder/textSlider';
+// import App from './prac/RecurringTextAnimation';
+// import App from './prac/react-animated-slider/index';
+
+
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <App />
+,document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

@@ -1,0 +1,70 @@
+/* Markup */
+.arrow-main-div {
+    border: 2px solid white; 
+  color: #000;
+    margin: 0;
+    font-family: "Lucida Console", Monaco, monospace;
+  bottom: 0;
+  }
+  
+  .container {
+  border: 2px solid blue; 
+    // background: PaleGoldenRod  ;
+    // height: 100vh;
+    // padding: 20px;
+    // text-align: center;
+    width: fit-content;
+    bottom: 0;
+  }
+  
+  .content {
+    width: fit-content;
+    bottom: 0;
+  }
+  
+  /* Arrow & Hover Animation */
+  #more-arrows {
+  border: 1px solid white; 
+      width: 75px;
+    height: 65px;
+    
+    &:hover {
+      
+      polygon {
+        fill: #FFF;
+        transition: all .2s ease-out;
+        font-size: 12px;
+        width: 55px;
+        height: 45px;
+      
+        &.arrow-bottom {
+          transform: translateY(-18px);
+          font-size: 12px;
+          width: 55px;
+          height: 45px;
+        
+        }
+  
+        &.arrow-top {
+          transform: translateY(18px);
+        }
+        
+      }
+    
+    }
+    
+  }
+  
+  polygon {
+    fill: #FFF;
+    transition: all .2s ease-out;
+      
+    &.arrow-middle {
+        opacity: 0.75;
+      }
+  
+      &.arrow-top {
+        opacity: 0.5
+      }
+       
+  }

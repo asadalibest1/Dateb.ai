@@ -1,0 +1,57 @@
+.slide-div{
+    width: 100%;
+    box-shadow: 1px 1px 10px 6px #3a3232;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+/* .slide-div .imageSlides1{
+    background-image: url("./porfolioGallery/web/covide19.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+
+}
+.slide-div .imageSlides2{
+    background-image: url("./porfolioGallery/web/expense.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+
+}
+.slide-div .imageSlides3{
+    background-image: url("./porfolioGallery/web/shoe-store.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%; 
+    height: 100%;
+    overflow: visible;
+
+}
+.slide-div .imageSlides4{
+    background-image: url("./porfolioGallery/web/webflex.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+
+} */
+@media only screen and (max-width: 768px) {
+    /* For mobile: */
+    .slide-div{ border-radius: 8px; margin: 50px 0px 0px 0px; }
+    
+    .slide-div div{
+    background: 100%;
+    height: 200px;    
+    }
+}

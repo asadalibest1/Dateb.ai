@@ -1,0 +1,51 @@
+/* .side3-main-div img h2{
+    color: #ffffff;
+} */
+.slide1{
+    background-image: url("../../images/slidePics/webDev.jpg");
+ }
+.slide2{
+    background-image: url("../../images/slidePics/artInte.jpg");
+ 
+}
+.slide3{
+    background-image: url("../../images/slidePics/webDev2.jpg");
+ }
+ .side3-main-div div div .img{
+
+    background-color: rgba(0, 0, 0, 0.5); /* Used if the image is unavailable */
+    color: #ffffff;
+    /* height: 100%; */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    /* opacity: 0%;     */
+    text-align: center;
+
+ }
+ .side3-main-div div div .img h2{
+     font-weight: 100;
+    line-height: 55px; 
+    font-size: 42px;
+    color: #ffffff;
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff;
+
+}
+.side3-main-div div div .slide2 h2{
+    /* color: #ffffff; */
+   text-shadow: 0 0 3px #fa0000, 0 0 5px #ffffff;
+
+}
+@media only screen and (max-width: 768px) {
+    
+    .side3-main-div div div .img h2{
+        line-height: 30px;
+        font-size: 26px;
+    }
+    .side3-main-div div div .slide3 h2{
+        /* border: 1px solid white; */
+        font-size: 34px;
+        line-height: 55px;
+        
+    }
+}

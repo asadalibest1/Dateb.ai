@@ -1,0 +1,58 @@
+.three-feath{
+    /* border: 1px solid white; */
+    margin: 80px 40px;
+    overflow: hidden;
+}
+
+.three-feath .grid{
+    /* border: 1px solid white; */
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+
+    /* width: 100%; */
+    /* padding: 0;
+    margin: 0; */
+}
+.three-feath .grid div{
+    height: 370px;
+    /* border: 2px solid red; */
+    /* justify-content: center; */
+}
+.three-feath .grid div h1{
+    margin-bottom: 40px;
+}
+.three-feath .grid img{
+    /* border: 1px solid white; */
+    width: 220px;
+    height: 230px;
+}
+.three-feath .grid-two div h1{
+    margin-bottom: 20px;
+    /* margin: 0; */
+
+}
+.three-feath .grid-two img{
+    /* border: 1px solid white; */
+    width: 383px;
+    height: 280px;
+}
+
+.three-feath .grid-three div h1{
+    margin-bottom: 90px;
+}
+
+.three-feath .grid-three img{
+    width: 80%;
+    height: 120px;   
+}
+.grid-two div .line1, .grid-two div .line2{
+    width: 0%;
+    height: 100%;
+    border: 1px solid white; 
+}
+@media only screen and (max-width: 768px) {
+    .three-feath{ display: none;}
+
+}

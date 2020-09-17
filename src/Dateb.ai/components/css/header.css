@@ -1,0 +1,109 @@
+
+/* ./images/green-natural-leaves-2.jpg */
+.header-div{
+  background-image: url("../images/head.jpg");
+  background-color: rgba(0, 0, 0, 0.5); /* Used if the image is unavailable */
+  height: 550px; /*You must set a specified height*/
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 100% 120%; /* Resize the background image to cover the entire container */
+  width: 100%;
+  display: flex;
+    color: rgb(223, 221, 221);
+  /* justify-content: center; */
+  align-items: center;
+  box-shadow: 10px 10px 30px 20px #92abcf;
+
+}
+/* .header-div  h1{
+  font-size: 36px;
+} */
+.header-div .color-div .inner-div button{
+  color: #dfdddd;
+  border: 1px solid #92abcf;
+  background-color: transparent;
+  width: 190px;
+  height: 40px;
+  margin: 0 10px;
+  margin-top: 15px; 
+}
+.header-div .color-div .inner-div button:hover{
+  color: rgb(223, 221, 221);
+  border: 1px solid #92abcf;
+  background-color: rgba(163, 165, 168, 0.1) ;
+  /* opacity: 30%; */
+  width: 190px;
+  height: 40px;
+  margin: 0 10px;
+  margin-top: 15px; 
+}
+
+.color-div{
+  width: 100%;
+  height: 100%;
+  padding: 420px 60px 0px 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+/* #cccccc */
+/* .inner-div Button{
+    width: 200px;
+    height: 40px;
+    margin-top: 5px;
+} */
+.mousedown-div{
+  margin-top: 43px;
+  text-align: center;
+}
+.mousedown{
+  /* margin: 0 auto; */
+  /* display: flex; */
+  /* text-align: center; */
+  /* margin-top: 6%; */
+  /* border: 1px solid white; */
+  width: 90px;
+  height: 70px;
+  opacity: 60%;
+
+  /* opacity: 70%; */
+}
+
+/* .mousedown img{
+opacity: 70%;
+width: 100%;
+  height: 100%;
+} */
+
+@media only screen and (max-width: 768px) {
+  .header-div{
+    background-image: url("../images/head.jpg");
+    background-color: rgba(0, 0, 0, 0.5); /* Used if the image is unavailable */
+    color: rgb(223, 221, 221);
+    /* height: 500px; You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    box-shadow: 10px 10px 40px 20px #bd9f9f;
+  
+  }
+  .color-div{
+    padding: 330px 30px 0px 45px;    
+   
+  }
+  .mousedown{
+  margin-top: 10%;
+  opacity: 50%;
+  /* display: block;
+  text-align: center; */
+    /* margin: 0 auto; */
+    /* margin-top: 6%; */
+    /* border: 1px solid black; */
+    /* width: 100px;
+    height: 80px; */
+  }
+  
+}
