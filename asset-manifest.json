@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/dateb.ai/static/css/main.6d2ca074.chunk.css",
+    "main.js": "/dateb.ai/static/js/main.a1a4604f.chunk.js",
+    "main.js.map": "/dateb.ai/static/js/main.a1a4604f.chunk.js.map",
+    "runtime-main.js": "/dateb.ai/static/js/runtime-main.68e8b2bd.js",
+    "runtime-main.js.map": "/dateb.ai/static/js/runtime-main.68e8b2bd.js.map",
+    "static/css/2.d3647f46.chunk.css": "/dateb.ai/static/css/2.d3647f46.chunk.css",
+    "static/js/2.12706978.chunk.js": "/dateb.ai/static/js/2.12706978.chunk.js",
+    "static/js/2.12706978.chunk.js.map": "/dateb.ai/static/js/2.12706978.chunk.js.map",
+    "index.html": "/dateb.ai/index.html",
+    "precache-manifest.689babee3f20b7ec5a45ddca63d7545d.js": "/dateb.ai/precache-manifest.689babee3f20b7ec5a45ddca63d7545d.js",
+    "service-worker.js": "/dateb.ai/service-worker.js",
+    "static/css/2.d3647f46.chunk.css.map": "/dateb.ai/static/css/2.d3647f46.chunk.css.map",
+    "static/css/main.6d2ca074.chunk.css.map": "/dateb.ai/static/css/main.6d2ca074.chunk.css.map",
+    "static/js/2.12706978.chunk.js.LICENSE.txt": "/dateb.ai/static/js/2.12706978.chunk.js.LICENSE.txt",
+    "static/media/0staf.png": "/dateb.ai/static/media/0staf.45e569a1.png",
+    "static/media/services.css": "/dateb.ai/static/media/staticWeb.08a3587d.jpg",
+    "static/media/animate.scss": "/dateb.ai/static/media/webDev2.6341b5f1.jpg",
+    "static/media/clock.png": "/dateb.ai/static/media/clock.1d1113fc.png",
+    "static/media/covide19.jpg": "/dateb.ai/static/media/covide19.f5c6547a.jpg",
+    "static/media/expense.jpg": "/dateb.ai/static/media/expense.8f78fcbb.jpg",
+    "static/media/header.css": "/dateb.ai/static/media/head.e38f4b6c.jpg",
+    "static/media/highQuality3.png": "/dateb.ai/static/media/highQuality3.a79e9faa.png",
+    "static/media/joinUs.jpg": "/dateb.ai/static/media/joinUs.89e6d0cb.jpg",
+    "static/media/mousedown.gif": "/dateb.ai/static/media/mousedown.5af703e4.gif",
+    "static/media/pay.png": "/dateb.ai/static/media/pay.29945f1f.png",
+    "static/media/projects.css": "/dateb.ai/static/media/projects.b468033c.png",
+    "static/media/react.png": "/dateb.ai/static/media/react.8c2acb4e.png",
+    "static/media/shoe-store.jpg": "/dateb.ai/static/media/shoe-store.0d2c0e39.jpg",
+    "static/media/staf.png": "/dateb.ai/static/media/staf.2433878f.png",
+    "static/media/webflex.jpg": "/dateb.ai/static/media/webflex.348907a1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68e8b2bd.js",
+    "static/css/2.d3647f46.chunk.css",
+    "static/js/2.12706978.chunk.js",
+    "static/css/main.6d2ca074.chunk.css",
+    "static/js/main.a1a4604f.chunk.js"
+  ]
+}
