@@ -46,7 +46,7 @@
 		0 0 2px rgba(0, 0, 0, .75),
 		inset 0 0 2px rgba(0, 0, 0, .45); */
 
-	animation: letter 3s ease-in-out 2 alternate;
+	animation: letter 4s ease-in-out 2 alternate;
 }
 .anime-main-div .letter p{
     margin: 0;
@@ -90,13 +90,13 @@
 
 @keyframes ai {
 	
-	0% {opacity:0%;}
-	100% {opacity:100%;}
+	0% {color: rgba(255, 255, 255, 0);}
+	100% {color: rgba(255, 255, 255, 1);}
 	}
 
 @keyframes letter {
-	0%,40%{ width: 0px; opacity: 0%;}
-	60%,100%{ width: 11vw; opacity: 100%;}
+	0%,45%{ width: 0px; color: rgba(255, 255, 255, 0)}
+	55%,100%{ width: 11vw; color: rgba(255, 255, 255, 1);}
 }
 
 
@@ -105,18 +105,13 @@
 	font-size: 9vw;
 }
 .anime-main-div .letter{
-	/* border: 1px solid black; */
 	height: 100%;
     margin-bottom: 3px;
 
 }
-/* .anime-main-div .letter p{
-	border: 1px solid red;
-	
-} */
 
 @keyframes letter {
-	0%,40%{ width: 0px; opacity: 0%;}
-	60%,100%{ width: 27vw; opacity: 100%;}
+	0%,45%{ width: 0px; color: rgba(255, 255, 255, 0);}
+	55%,100%{ width: 27vw; color: rgba(255, 255, 255, 1);}
 }
 }

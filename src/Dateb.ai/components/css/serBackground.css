@@ -19,7 +19,7 @@
         background-image: url("../images/services/computerVision.jpg");
     }
     .services-main-div .serviceGrid .service .background{
-        background-color: red; /* Used if the image is unavailable */
+        background-color: rgba(0,0,0, 0.5); /* Used if the image is unavailable */
         height: 200px; /*You must set a specified height*/
         width: 100%;
         background-position: center; /* Center the image */
@@ -68,13 +68,3 @@
         width: 100%;
         margin-bottom: 80px;
     }
-    /* @keyframes fadeOutUp {
-        0% {
-           opacity: 1;
-           transform: translateY(0);
-        }
-        100% {
-           opacity: 0;
-           transform: translateY(-20px);
-        }
-     }  */

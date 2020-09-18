@@ -1,4 +1,3 @@
-@import "./serBackground.css";
 
 .services-main-div{
     /* border: 1px solid white; */
@@ -21,9 +20,9 @@
     overflow: hidden;
 
 }
-.services-main-div .serviceGrid .service .background h1{
+/* .services-main-div .serviceGrid .service .background h1{
     opacity: 100%;
-}
+} */
 
 
 .services-main-div .serviceGrid .service .info {
@@ -37,3 +36,5 @@
     .services-main-div .serviceGrid{padding: 20px 7px;}
 
 }
+
+@import "./serBackground.css";
