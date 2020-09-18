@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0b1a2d79193468a81ba198db961bf81",
+    "revision": "0de013df511fe8e6ad87dc4633856830",
     "url": "/Dateb.ai/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Dateb.ai/static/css/2.d3647f46.chunk.css"
   },
   {
-    "revision": "4f22a8b8e7325450788f",
-    "url": "/Dateb.ai/static/css/main.766830fc.chunk.css"
+    "revision": "47c3b18a6be1aa883c8f",
+    "url": "/Dateb.ai/static/css/main.93b5298b.chunk.css"
   },
   {
     "revision": "faa2ab9f9ae66c308b9b",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Dateb.ai/static/js/2.12706978.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4f22a8b8e7325450788f",
-    "url": "/Dateb.ai/static/js/main.d83e434c.chunk.js"
+    "revision": "47c3b18a6be1aa883c8f",
+    "url": "/Dateb.ai/static/js/main.dff9a0f8.chunk.js"
   },
   {
     "revision": "056f86cf66aa348efc6d",

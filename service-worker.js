@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Dateb.ai/precache-manifest.af5bd9af3aa27b4b1b1ada8796ddf848.js"
+  "/Dateb.ai/precache-manifest.1bc13ce9e7ea2aa82e87048902110e23.js"
 );
 
 self.addEventListener('message', (event) => {
