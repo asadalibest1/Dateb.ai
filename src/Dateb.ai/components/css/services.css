@@ -16,7 +16,7 @@
     /* border-radius: 10px; */
     /* background-color: #1d1f24; */
     /* border: 1px solid white; */
-    height: 330px;
+    height: 350px;
     overflow: hidden;
 
 }
@@ -26,11 +26,21 @@
 
 
 .services-main-div .serviceGrid .service .info {
+    
     /* border: 1px solid rgb(255, 255, 255); */
-    line-height: 8px;
+    /* line-height: 8px; */
     padding: 0 15px;
     padding-top: 10px;
 }
+.services-main-div .serviceGrid .service .info p{
+    line-height: 21px;
+
+}
+.services-main-div .serviceGrid .service .info div{
+    line-height: 25px;
+
+}
+
 @media only screen and (max-width: 768px) {
     .services-main-div{margin: 0;}
     .services-main-div .serviceGrid{padding: 20px 7px;}
