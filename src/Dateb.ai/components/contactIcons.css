@@ -1,0 +1,92 @@
+.contact-icons-div{
+    padding-top: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+  }
+.contact-icons-inner-div{
+    position: relative;
+    /* border: 1px solid black; */
+    margin-left: 1500px;
+    transition: all .5s;
+  }
+.contact-icons-div .contact-icons-inner-div .share .contact-icons{
+    font-size: 30px;
+}
+.contact-icons-div .contact-icons-inner-div #contactIcons{
+margin: 12px 0px 0px 0px;
+/* border: 1px solid black; */
+/* color: red; */
+}
+
+.share{
+    display:block;
+    width: 53px;
+    height:53px;
+    background:lightcoral;
+    position:absolute;
+    top:300px;
+    left:96.5%;
+    z-index:999;
+    text-align:center;
+    overflow:hidden;
+    line-height:65px;
+    font-size:1.5em;
+    color:#fff;
+    -moz-box-shadow: 0px 3px 9px rgba(0,0,0,.5);
+  -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,.5);
+  box-shadow: 0px 3px 9px rgba(0,0,0,.5);
+    border-radius:50px;
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+  }
+  
+  .one, .two, .three{
+    position:absolute;
+    width:50px;
+    height:50px;
+    color:#fff;
+    border-radius:50px;
+    text-align:center;
+    line-height:49px;
+    font-size:1.5em;
+    top:300px;
+    left:96.5%;
+     -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,.2);
+  box-shadow: 0px 3px 9px rgba(0,0,0,.2);
+    -webkit-transition:transform  .3s ease-in-out;
+    transition:transform .3s ease-in-out;
+  }
+  
+  .share:hover,
+  .one:hover, 
+  .two:hover,
+  .three:hover{
+    cursor:pointer;
+    box-shadow: 0 0 10px 0 #c6d3e7 inset, 0 0 20px 2px #c6d3e7;
+  
+  }
+  
+  .one i, .two i, .three i{
+    display:none;
+  }
+  
+  
+  .one{
+    background:#2196f3;
+  }
+  
+  .two{
+    background:#00e5ff;
+  }
+  
+  .three{
+    background:#ff0000;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .contact-icons-div{display: none;}
+
+  }

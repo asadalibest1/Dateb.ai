@@ -49,7 +49,7 @@ const changeSlide =()=>{
     }
 
     return (
-  <>
+  <div id="scroll-portfolio">
   <div style={{ overflow: "hidden" }}>
     
 <div className="minDivPojects"
@@ -126,6 +126,6 @@ const changeSlide =()=>{
   </div>
 </div>                
 </div>
-  </>
+  </div>
   )
 }

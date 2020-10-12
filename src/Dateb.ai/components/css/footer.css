@@ -43,6 +43,18 @@ IconButton{
     height: 50px;
     border-radius: 50%;
 }
+.Back-to-Top{
+    /* font-weight: bold; */
+    margin: 0px auto;
+    border: 1px solid black;
+    padding: 5px 35px;
+    width: 160px;
+}
+.Back-to-Top:hover{
+    cursor: pointer;
+    color: #3f3f3f;
+    border-color: #3f3f3f;
+}
 @media only screen and (max-width: 768px) {
     /* For mobile: */
     .lower-footer{
@@ -52,7 +64,6 @@ IconButton{
         justify-content: center;
         align-items: center;
         height: 300px;
-        padding: 0;
         text-align: center;
         color: black;
     } 

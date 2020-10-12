@@ -1,5 +1,5 @@
-@import './backgrounds.css';
-@import './animateStyle.scss';
+@import './side3Backgrounds.css';
+@import './side3Animate.scss';
 
 .side3-parent-div{
     margin: 60px 0;
@@ -8,21 +8,10 @@
 }
 .side3-main-div{
 
-  // background-image: url("../../images/areYouReady.jpg");
-  // background-color: rgba(0, 0, 0, 0.5); /* Used if the image is unavailable */
-  // color: rgb(223, 221, 221);
-  // /* height: 500px; You must set a specified height */
-  // background-position: center; /* Center the image */
-  // background-repeat: no-repeat; /* Do not repeat the image */
-  // background-size: cover; /* Resize the background image to cover the entire container */
-  // opacity: 60%;
-  // border: 3px solid white;
     width: 100%;
     height: fit-content;
-    // height: 430px;
-    background-color: #352b2b;
+    background-color: #1d1616;
     box-shadow: 1px 1px 10px 6px #1d1616;
-    // overflow: hidden;
     margin: 55px 0;
 
   }
@@ -30,7 +19,6 @@
     height: 400px;
   }
 .side3-main-div div{
-    // margin: 5px solid red;
     width: 100%;
 }
 .side3-main-div div div{
@@ -39,31 +27,20 @@
   display: flex;
   text-align: center;
   align-items: center;
-  // width: 100%;
-  // height: 400px;
 }
 
 .side3-main-div div h2{
-  // margin: 5px solid red; 
-  // text-align: center;
-  width: 100%;
-  // align-self: center;
-  // display: flex;
-// padding: auto;
-margin-bottom: 60px;
-// background-color: transparent;
+    width: 100%;
+    margin-bottom: 60px;
     text-align: center;
-
-  // opacity: 99%;
-  color: #c6d3e7;
-  font-size: 42px;
+    color: #c6d3e7;
+    font-size: 42px;
 
 }
 .side3-main-div div div .img{
   position: absolute;
   left: 0px;
   top: 0px;
-  // z-index: -1;
   width: 100%;
   height: 100%;
   box-shadow: 1px 1px 10px 6px #8a7d7d;
@@ -77,7 +54,6 @@ margin-bottom: 60px;
       border: 0px solid black;
   }
   .side3-main-div{
-  // margin: 1px solid red; 
   width: 100%;
   height: 320px;
   

@@ -25,6 +25,70 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+<style type="text/css">
+body{
+  background-color: #000000;
+}
+.loader-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 34vh;
+}
+
+@keyframes loader-anime {
+  0% {
+    top: 96px;
+    left: 96px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 18px;
+    left: 18px;
+    width: 156px;
+    height: 156px;
+    opacity: 0;
+  }
+}
+
+.loader-anime div {
+  position: absolute;
+  border-width: 4px;
+  border-style: solid;
+  opacity: 1;
+  border-radius: 50%;
+  animation: loader-anime 1s cubic-bezier(0,0.2,0.8,1) infinite;
+}
+
+.loader-anime div:nth-child(1) {
+  border-color: #ffffff
+}
+
+.loader-anime div:nth-child(2) {
+  border-color: #5edeed;
+  animation-delay: -0.5s;
+}
+
+.loader {
+  width: 200px;
+  height: 200px;
+  /* display: inline-block; */
+  overflow: hidden;
+  background: #000000;
+}
+.loader-anime {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.loader-anime div { box-sizing: content-box; }
+</style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +103,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+
+    <div class="loader-container">
+    <div class="loader">
+      <div class="loader-anime">
+          <div></div>
+          <div></div>
+      </div>
+    </div>
+  </div>
+    </body>
 </html>

@@ -1,16 +1,43 @@
 import React from 'react'
+import {isMobile} from 'react-device-detect';
 import './css/datebAnime.css';
 
 export default function DatebAnime(props) {
     React.useEffect(()=>{
-    if(props.titleColor === "#000000"){
+
+    if (isMobile){
         document.getElementsByClassName("letter")[0].style.animation = "none";
+        document.getElementsByClassName("ai")[0].style.animation = "none";
+    
+            document.getElementsByClassName("main")[0].style.color = props.titleColor;
+            document.getElementsByClassName("main")[0].style.fontSize = props.titleFont;
+                // setInterval(() => {
+                document.querySelector(".ai").style.visibility = "visible";                
+                // }, 6500)
+        
     }
-    document.getElementsByClassName("main")[0].style.color = props.titleColor;
-    document.getElementsByClassName("main")[0].style.fontSize = props.titleFont;
-        setInterval(() => {
-           document.querySelector(".ai").style.visibility = "visible";                
-           }, 6500)
+    else{
+
+        if(props.titleColor !== "#000000"){
+
+            document.getElementsByClassName("main")[0].style.color = props.titleColor;
+            document.getElementsByClassName("main")[0].style.fontSize = props.titleFont;
+                setInterval(() => {
+                document.querySelector(".ai").style.visibility = "visible";                
+                }, 6900)
+        
+    }else{        
+        
+                document.getElementsByClassName("letter")[0].style.animation = "none";
+                document.getElementsByClassName("ai")[0].style.animation = "none";
+            
+                // setInterval(() => {
+                    document.querySelector(".ai").style.visibility = "visible";                
+                    // }, 6900)
+                    document.getElementsByClassName("main")[0].style.color = props.titleColor;
+                    document.getElementsByClassName("main")[0].style.fontSize = props.titleFont;
+    }
+}
 
     },[props])
     return (

@@ -11,6 +11,8 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import InfoIcon from '@material-ui/icons/Info';
 import LanguageIcon from '@material-ui/icons/Language';
+import { Link, animateScroll as Scroll } from 'react-scroll'
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -26,7 +28,7 @@ export default function Footer() {
   const classes = useStyles();
 
   return (
-    <>
+    <div id="scroll-Contact">
 
   <div className="upper-header" id="upper-header">
   <Grid className="Grid" container>
@@ -79,9 +81,15 @@ export default function Footer() {
           </IconButton>
        </div>
         <h5>Copyright © 2020 Dateb.ai - All Rights Reserved</h5>
-        <p>created by: Asad Ali</p>
+        <p>created by: Dateb.ai</p>
+          
+          <Link onClick={()=>{Scroll.scrollToTop()}} >
+          <div className="Back-to-Top">
+          Back to Top
+          </div>
+          </Link>
     </div>
 </div>
-</>
+</div>
 );
 }

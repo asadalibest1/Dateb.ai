@@ -3,8 +3,7 @@ import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 
 import 'react-awesome-slider/dist/styles.css';
-import '../css/scss/animate.scss';
-// import "../css/side3.scss";
+import '../css/scss/side3.scss';
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -30,7 +29,7 @@ return(
             play={true}
             transitionDelay={700}
             cancelOnInteraction={false} // should stop playing on user interaction
-            interval={4000}
+            interval={5000}
                 buttons={false}
         //     bullets="true"
                 // fillParent="true"
@@ -62,7 +61,7 @@ return(
                                  <h2>So, are you Ready to Innovate and Grow</h2>
                     </div>
                 </div>
-            </div>           
+            </div>
           </AutoplaySlider>
           </div>
           </div>

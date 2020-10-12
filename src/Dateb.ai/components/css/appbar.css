@@ -14,14 +14,34 @@
 .Toolbar{
   padding: 5px 0;
 }
+.appbar-menu{
+  padding: 0 8px;
+  /* padding-top: 10px; */
+  display: flex;
+  /* width: fit-content; */
+  justify-content: space-between;
+  /* border: 1px solid yellow; */
+  list-style: none;
+  text-align: center;
+  line-height: 15px;
+}
+.appbar-menu li{
+  display: inline;
+  font-weight: bold;
+  /* margin: 0 15px; */
+  line-height: 0px;
+}
+.appbar-menu li:hover{
+  cursor: pointer;
+}
 @media only screen and (max-width: 768px) {
     /* For mobile: */
    #menuButton{
      display: inline;
      /* color: purple; */
     }
-  .menu{
-    display: none;
+    .td3 .menu{
+          display: none;
   }
   .title{
     text-align: center;
@@ -33,13 +53,7 @@
   }
 }
 
-.menu{
-  right: 0;
-  text-align: right;
-  color: white;
-  font-family: 'Raleway', sans-serif;
 
-}
 table {
   table-layout: fixed ;
   width: 100% ;
@@ -51,5 +65,29 @@ table {
   width: 50% ;
 }
 .td3 {
+  /* border: 2px solid white; */
   width: 25% ;
+  display: flexbox;
+  align-items: flex-end;
 }
+/* td{
+  border: 1px solid yellow;
+} */
+.td3 .menu{
+  /* border: 1px solid white; */
+  height: 30px;
+  /* display: inline; */
+  color: white;
+  font-family: 'Raleway', sans-serif;
+
+}
+.appbar-menu .headerHover{
+  /* border: 2px solid white; */
+  display: inline-block;
+  width: 0px;
+  background: white;
+  transition: all .3s;
+}
+/* .appbar-menu .headerHover:hover{
+  width: 57px;
+} */

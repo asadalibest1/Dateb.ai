@@ -44,6 +44,13 @@
 @media only screen and (max-width: 768px) {
     .services-main-div{margin: 0;}
     .services-main-div .serviceGrid{padding: 20px 7px;}
+    .services-main-div .serviceGrid .service{height: 360px;}
+    
+    .services-main-div .serviceGrid .service .info { padding: 0px 13px;}
+    .services-main-div .serviceGrid .service .info p{font-size: 18px;}
+    .services-main-div .serviceGrid .service .info div{font-size: 18px;}
+    
+    .services-main-div .serviceGrid .service .info p span{display: block;}
 
 }
 

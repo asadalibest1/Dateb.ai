@@ -1,0 +1,23 @@
+body{
+    background-color: white;
+}
+.slide-container .each-fade h2{
+    text-align: center;
+}
+.slide-container{
+
+    color: black;
+    width: 100%;
+    box-shadow: 1px 1px 10px 6px #3a3232;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.arrows{
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile: */
+    .slide-div{ border-radius: 8px; margin: 100px 0;}
+}

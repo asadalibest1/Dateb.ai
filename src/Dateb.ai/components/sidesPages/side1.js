@@ -4,7 +4,7 @@ import "../css/slidestyle.css"
 
 export default function Side1() {
   return (
-<>
+<div id="scroll-about">
     <Grid className="main-grid1"  id="main-grid1" container 
     data-aos="fade-down"
     data-aos-offset="200"
@@ -33,6 +33,6 @@ export default function Side1() {
         </Grid>
       
             </Grid>
-  </>
+  </div>
   )
 }

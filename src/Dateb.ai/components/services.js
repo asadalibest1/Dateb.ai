@@ -4,7 +4,7 @@ import "./css/services.css";
 
 export default function Services() {
     return (
-        <div className="services-main-div">
+        <div className="services-main-div" id="scroll-services">
         <Grid container>
         <h1 className="services-head">Services</h1>
                 <Grid className="serviceGrid" item xs={12} sm={4}
@@ -88,7 +88,7 @@ export default function Services() {
                             If you already have a Website 
                             but Perhaps you want some additional features, 
                             Dateb is providing Design Customization Service  
-                            Contact us so we can Customize your Website as you like.
+                            Contact us so we can Customize your Website <span>as you like.</span>
                         </p>
                         </div>
                     </div>

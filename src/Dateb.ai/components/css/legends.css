@@ -1,0 +1,76 @@
+
+.legends-main-div{
+    background-image: url(../images/legends/office.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    /* border: 1px solid red; */
+    height: 460px;
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    margin: 50px 0;
+    /* overflow: hidden; */
+    line-height: 13px;
+}
+.legends-main-div .inner-div{
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+ 
+}
+.legends-main-div .inner-div div{
+    /* padding: 20px 0; */
+    height: 100%;
+}
+    
+.legends-main-div .inner-div h3{
+    margin: 15px  0;
+    font-weight: 100;
+    font-size: 17px;
+}
+/* .legends-main-div .inner-div .legends-name:hover{
+    
+} */
+.meet-legends{
+    font-size: 22px;
+    /* text-align: center; */
+    padding: 17px 0;
+    /* color: #96b2db */
+}
+.legends-main-div .inner-div .legend-contacts{
+    /* border: 1px solid yellow; */
+    padding: 10px;
+    margin: 10px 0px;
+    /* padding: 3px 5px 8px 5px; */
+}
+.legends-main-div .inner-div .legend-contacts:hover{
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+}
+.legends-main-div .inner-div p{
+    /* border: 1px solid yellow; */
+    line-height: 22px;
+    margin: 0 130px;
+    font-style: italic;
+    /* text-justify: newspaper; */
+}
+
+.legends-main-div img{
+    width: 110px;
+    height: 100px;
+    border-radius: 50%;
+    /* border:  */
+    border: 7px solid rgba(198, 211, 231, .25);
+    
+}
+@media only screen and (max-width: 768px) {
+.legends-main-div .inner-div p{margin: 0;}
+/* .legends-main-div{height: fit-content;} */
+
+.legends-main-div{
+    height: 540px;
+}
+.legends-main-div .inner-div p{
+    margin: 0px 8px;
+}
+}

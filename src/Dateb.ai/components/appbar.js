@@ -3,11 +3,10 @@ import './css/appbar.css';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Button from '@material-ui/core/Button';
 import {isMobile} from 'react-device-detect';
 import MobileMenu from './mobileMenu'
-// import anime from 'animejs/lib/anime.es.js';
 import DatebAnime from './datebAnime';
+import { Link } from 'react-scroll'
 
 const useStyles = makeStyles((theme) => ({
  
@@ -19,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
 export default function ButtonAppBar() {
   const [titleColor, changeTitleColor] = React.useState('white')
   const [titleFont, changeTitleFont] = React.useState('')
+  const [menuBarNum, changeMenuBarNum] = React.useState('')
   const classes = useStyles();
  
  
@@ -60,11 +60,28 @@ export default function ButtonAppBar() {
                     changeTitleFont("3.7vw")
                     // document.getElementsByClassName('title')[0].style.fontSize = "3.7vw";  
                   // document.getElementById('menuButton').style.color= "black";  
-                }         
-               
-              }
+                }
+    
+                if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+                  document.querySelector('.contact-icons-inner-div').style.marginLeft = "0px";
+                }else{
+                    document.querySelector('.contact-icons-inner-div').style.marginLeft = "1500px";
+        
+            }
+              }               
 
   }, []);
+
+  const MouseOver=(num)=>{
+    
+    document.getElementById(`headerHover${num}`).style.width="57px";
+    document.getElementById(`headerHover${num}`).style.border="1.5px solid white";
+  }
+  const MouseOut=(num)=>{
+    // alert(num);
+    document.getElementById(`headerHover${num}`).style.width="0px";
+    document.getElementById(`headerHover${num}`).style.border="0px solid white";
+  }
 
   return (
     <div>
@@ -73,26 +90,34 @@ export default function ButtonAppBar() {
           <table>
           <tbody>
             <tr>
-              <td className="td1">
-          <div id="menuButton" className={classes.menuButton}>
-            <MobileMenu />
-          </div>  
+                    <td className="td1">
+                      <div id="menuButton" className={classes.menuButton}>
+                        <MobileMenu />
+                      </div>  
                 </td>
-          <td className="td2">
+                    <td className="td2">
                       <div className="title" id="title2">
                         <DatebAnime  titleColor={titleColor} titleFont={titleFont}/>
                       </div>
-                      {/* <div className={classes.title} id="title">
-                        <div className="title">Dateb.ai</div>
-                      </div> */}
-         </td>
+                    </td>
           
           <td className="td3">
-          <div className="menu">
-          <Button color="inherit">About</Button>
-          <Button color="inherit">Portfolio</Button>
-          <Button color="inherit">Contact</Button>
-          </div>
+              <div className="menu">
+              <ul className="appbar-menu">
+              <Link to="scroll-services" smooth={true} duration={500}>
+                        {/* <Button color="inherit">Services</Button> */}
+                                    <li onMouseOver={()=>{MouseOver("1")}} onMouseOut={()=>{MouseOut("1")}}>Services</li>
+                                    <br /><li className="headerHover" id="headerHover1"></li>
+              </Link>            
+              <Link to="scroll-portfolio" smooth={true} duration={500}>
+                                    <li onMouseOver={()=>{MouseOver("2")}} onMouseOut={()=>{MouseOut("2")}}>Portfolio</li>
+                                    <br /><li className="headerHover" id="headerHover2"></li>
+              </Link>            
+              <Link to="scroll-Contact" smooth={true} duration={500}>
+                                      <li onMouseOver={()=>{MouseOver("3")}} onMouseOut={()=>{MouseOut("3")}}>Contact</li>
+                                      <br /><li className="headerHover" id="headerHover3"></li>
+              </Link>            
+              </ul>      </div>
             </td>
           </tr>
           </tbody>

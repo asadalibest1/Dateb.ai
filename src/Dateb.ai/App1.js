@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactIcons from './components/contactIcons'
 import Appbar from './components/appbar'
 import Header from './components/header'
 import Side1 from './components/sidesPages/side1'
@@ -8,6 +9,7 @@ import Side2 from './components/sidesPages/side2'
 import Projects from './components/sidesPages/porfolioSlide/projects'
 import ThreeFeath from './components/threeFeath'
 import Side3 from './components/sidesPages/side3'
+import Legends from './components/legends'
 import HaveProject from './components/haveProject'
 import JoinUS from './components/sidesPages/joinUS'
 import Footer from './components/footer'
@@ -22,6 +24,7 @@ export default function App1() {
 
     return (
         <div>
+            <ContactIcons />
             <Appbar />
             <Header />
             <Side1 />
@@ -32,6 +35,7 @@ export default function App1() {
             <ThreeFeath />
             <Side3 />
             <HaveProject />
+            <Legends />
             <JoinUS />
             <Footer />
         </div>

@@ -35,6 +35,7 @@ export default function TextSlider(){
       autoplay={2000}
       previousButton={false}
       nextButton={false}
+      touchDisabled={true}
 >
       
       {content.map((item, index) => (
