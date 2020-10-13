@@ -70,7 +70,7 @@ justify-content: center;
     /* text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff; */
 }
 
-.portfolio-select input:checked+ .portfolio-select-button{height: 145px;}
+.portfolio-select input:checked+ .portfolio-select-button{height: 143px;}
 
 .portfolio-select .default, .portfolio-select .option{
     border: .5px solid rgb(80, 72, 72);    

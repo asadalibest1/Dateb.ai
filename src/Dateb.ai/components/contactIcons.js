@@ -1,5 +1,5 @@
 import React from 'react'
-import './contactIcons.css'
+import './css/contactIcons.css'
 import $ from 'jquery'
 
 import FacebookIcon from '@material-ui/icons/Facebook'

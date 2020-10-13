@@ -50,13 +50,13 @@ export default function legends() {
               <h3 className="legends-title">{slide.title}</h3>
                 
                 <IconButton className="legend-contacts" color="inherit" aria-label="menu">
-                  <LinkedInIcon onClick={()=>{window.open(slide.linkedIn)}}/>
+                  <LinkedInIcon className="legend-contacts-icons" onClick={()=>{window.open(slide.linkedIn)}}/>
                 </IconButton>
                 <IconButton className="legend-contacts" color="inherit" aria-label="menu">
-                  <WhatsAppIcon onClick={()=>{window.open("https://api.whatsapp.com/send?phone="+ slide.whatsapp +"&text=%20Greetings, I need your help regarding the services.")}} />
+                  <WhatsAppIcon className="legend-contacts-icons" onClick={()=>{window.open("https://api.whatsapp.com/send?phone="+ slide.whatsapp +"&text=%20Greetings, I need your help regarding the services.")}} />
                 </IconButton>
                 <IconButton className="legend-contacts" color="inherit" aria-label="menu">
-                  <FacebookIcon onClick={()=>{window.open(slide.facebook)}}/>
+                  <FacebookIcon className="legend-contacts-icons" onClick={()=>{window.open(slide.facebook)}}/>
                 </IconButton>
 
               <p>{slide.description}</p>

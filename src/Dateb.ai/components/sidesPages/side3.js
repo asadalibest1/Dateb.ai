@@ -58,7 +58,7 @@ return(
             <div>
                     <div>
                     <div className="slide3 img">
-                                 <h2>So, are you Ready to Innovate and Grow</h2>
+                                 <h2>So, are you Ready to Innovate & Grow</h2>
                     </div>
                 </div>
             </div>

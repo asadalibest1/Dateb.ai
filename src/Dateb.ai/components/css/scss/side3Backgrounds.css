@@ -10,7 +10,9 @@
 }
 .slide3{
     background-image: url("../../images/slidePics/webDev.jpg");
- }
+    /* border: 2px solid yellow; */
+    /* padding: 0px 100px; */
+}
  .side3-main-div div div .img{
 
     background-color: rgba(0, 0, 0, 0.5); /* Used if the image is unavailable */
@@ -18,7 +20,7 @@
     /* height: 100%; */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 100%; /* Resize the background image to cover the entire container */
+    background-size: cover; /* Resize the background image to cover the entire container */
     /* opacity: 0%;     */
     text-align: center;
 

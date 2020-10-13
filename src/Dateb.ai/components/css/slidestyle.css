@@ -13,6 +13,9 @@
     align-items: center;
     padding: 50px;
 }
+.grid1{
+padding-top: 30px;
+}
 
 .main-grid1 .grid1 .slide-para{
     text-align: left;
@@ -69,6 +72,15 @@
 }
 .paper div h2{
     text-align: left;    
+}
+.contentMainHeading{
+    /* background: white; */
+    margin-top: 50px;
+    text-align: center;
+    font-size: 44px;
+    /* font-weight: 400; */
+    /* display: block; */
+    
 }
 .paper div label{
     font-weight: normal;
@@ -132,12 +144,23 @@
     .main-grid1 .grid2{ padding: 6px;}
     .main-grid1 .grid1 h1, .main-grid1 .grid1 .slide-para{ text-align: center;}
     .main-grid2 .grid1{ padding: 6px; }
-    .main-grid1, .main-grid2{text-align: center;}
-    #weAre{ margin-bottom: 20px;}   
+    .main-grid1, .main-grid2{text-align: center;} 
 .main-grid1 .grid2 .slide-img{height: 270px} 
-.main-grid2 .grid1 .slide-img{height: 280px; margin: 0  auto 50px auto} 
+.main-grid2 .grid1 .slide-img{height: 280px; margin: 0 auto 50px auto} 
     .slide-para{font-size: 21px; line-height: 30px;}
     .main-grid2 .grid2 h1{font-size: 2.3em;}
     .main-grid3 .grid1{padding: 0 5px;}
     .main-grid4 .paper{width: 95%; }
+    .contentMainHeading{
+        /* background: white; */
+        margin-top: 30px;
+        text-align: center;
+        font-size: 38px;
+        /* font-weight: 400; */
+        /* display: block; */
+        
+    }
+    /* .Who-we-are span{
+        display: block;
+    } */
 }

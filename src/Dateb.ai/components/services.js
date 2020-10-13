@@ -6,7 +6,7 @@ export default function Services() {
     return (
         <div className="services-main-div" id="scroll-services">
         <Grid container>
-        <h1 className="services-head">Services</h1>
+        <h1 className="contentMainHeading services-head">Our Services</h1>
                 <Grid className="serviceGrid" item xs={12} sm={4}
                     data-aos="fade-up"
                 data-aos-offset="200"
@@ -27,10 +27,10 @@ export default function Services() {
                         </div>
                         <div className="info">
                         <p>
-                        Dateb is providing static website service
+                        Dateb is providing Static Website Service
                         with a very low prize. We can help you to                         
                         create an online presence with your Products.
-                         contact us for getting your web developed. 
+                         Contact us for getting your web developed. 
                         </p>
                         </div>
 
@@ -56,11 +56,11 @@ export default function Services() {
                         </div>
                         <div className="info">
                         <p>
-                            Hire us for your website development
-                            project. We develop from E-commerce to
-                            Professional website with neat work and great design & let your
+                            Hire us for your Website Development
+                            project. We Develop from E-commerce to
+                            Professional website with neat work and great Design & let your
                             services across the 
-                            globe in many different sectors.
+                            Globe in many different sectors.
                         </p>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ export default function Services() {
                             <div>
                             We ensure our customers 100%
                             satisfactory results,  that strengthens
-                            their business through our affordable
+                            their Business through our affordable
                             and unique solution-packages
                             </div> 
                         </div>
@@ -143,7 +143,7 @@ export default function Services() {
                             <div>Data Mining, Web Scraping, Risk
                             Management, Fraud Detection,
                             Forecast, and other complete
-                            business solutions</div>
+                            Business solutions</div>
                         </div>
                         </div>
                 </Grid>

@@ -56,11 +56,15 @@
     margin-top: 5px;
 } */
 .mousedown-div{
+  /* border: 1px solid #92abcf; */
   margin-top: 43px;
   text-align: center;
+  width: 100%;
 
 }
 .mousedown{
+  /* margin-right: 20px; */
+  /* border: 1px solid #92abcf; */
   width: 90px;
   height: 70px;
   /* opacity: 60%; */
@@ -84,7 +88,7 @@
   
   }
   .color-div{
-    padding: 330px 30px 0px 45px;    
+    padding: 330px 45px 0px 45px;    
    
   }
   .mousedown{

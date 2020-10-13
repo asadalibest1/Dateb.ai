@@ -32,9 +32,9 @@ export default function Side2() {
           data-aos-anchor-placement="top-bottom"
         >
             <div>
-                    <h1>Talk to our experts about your requirements</h1>
+                    <h1>Talk to our Experts about your Requirements</h1>
                     <p className="slide-para">
-                          Contact us and know more about how our experts can help your business grow.
+                          Contact us and know more about how our Experts can help your Business grow.
                     </p>
                     <div className="button button-2">Enquire Now</div>
             </div>

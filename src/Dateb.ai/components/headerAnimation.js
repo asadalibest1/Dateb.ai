@@ -8,7 +8,7 @@ export default function Index() {
                 <div> 
                         {/* Use classes 2,3, or 4 to match the number of words */}
                     <ul className="flip4"> 
-                        <li>Data Sceince</li>
+                        <li>Data Science</li>
                         <li>Website Development</li>
                         <li>Business Solutions</li> 
                         <li>Computer Visions</li>  

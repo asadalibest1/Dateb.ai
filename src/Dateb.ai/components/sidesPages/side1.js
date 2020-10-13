@@ -5,6 +5,7 @@ import "../css/slidestyle.css"
 export default function Side1() {
   return (
 <div id="scroll-about">
+
     <Grid className="main-grid1"  id="main-grid1" container 
     data-aos="fade-down"
     data-aos-offset="200"
@@ -14,12 +15,13 @@ export default function Side1() {
     data-aos-mirror="true"
     data-aos-once="true"
     data-aos-anchor-placement="top-bottom"
-            >        
+    >        
+    <Grid item xs={12} sm={12}> 
+        <h1 className="contentMainHeading">Who We Are?</h1>
+        </Grid>
  
-        <Grid item xs={12} sm={6} className="grid1" 
-       >
+        <Grid item xs={12} sm={6} className="grid1">
             <div>
-                {/* <h1 >We</h1> */}
                 <p className="slide-para">
                 <b id="weAre">We</b> are a highly specialized Management team with over 20 combined years of experience in the Healthcare industry with proven ability
                 to optimally combine digital technology, skilled resources and efficient business processes to implement creative as well 
