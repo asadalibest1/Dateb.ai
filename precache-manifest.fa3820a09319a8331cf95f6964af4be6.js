@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa6ff1bfee52b9728844d3220468919a",
+    "revision": "d82b8793f1bdbab225b2ffc80e45258d",
     "url": "/Dateb.ai/index.html"
   },
   {
-    "revision": "faa2ab9f9ae66c308b9b",
+    "revision": "a383cb31632596659fba",
     "url": "/Dateb.ai/static/css/2.d3647f46.chunk.css"
   },
   {
-    "revision": "295ad51fd726673cbe14",
-    "url": "/Dateb.ai/static/css/main.18875d0a.chunk.css"
+    "revision": "1c86084dabba4c6e36bf",
+    "url": "/Dateb.ai/static/css/main.09dcd47b.chunk.css"
   },
   {
-    "revision": "faa2ab9f9ae66c308b9b",
-    "url": "/Dateb.ai/static/js/2.12706978.chunk.js"
+    "revision": "a383cb31632596659fba",
+    "url": "/Dateb.ai/static/js/2.23ee57fb.chunk.js"
   },
   {
-    "revision": "c8fad4de1da305ff34af4db9812b5d7f",
-    "url": "/Dateb.ai/static/js/2.12706978.chunk.js.LICENSE.txt"
+    "revision": "85b3f66358ffe557022c0d318d7d883d",
+    "url": "/Dateb.ai/static/js/2.23ee57fb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "295ad51fd726673cbe14",
-    "url": "/Dateb.ai/static/js/main.90d4c02a.chunk.js"
+    "revision": "1c86084dabba4c6e36bf",
+    "url": "/Dateb.ai/static/js/main.7131ee76.chunk.js"
   },
   {
     "revision": "056f86cf66aa348efc6d",
@@ -36,8 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Dateb.ai/static/media/Business-sol.27557c44.jpg"
   },
   {
-    "revision": "c17593c972925ed0f8d940dd44453179",
-    "url": "/Dateb.ai/static/media/artInte.c17593c9.jpg"
+    "revision": "d22375f0271deaa4dd10922b9ba62e03",
+    "url": "/Dateb.ai/static/media/artInte.d22375f0.jpg"
+  },
+  {
+    "revision": "24bda26b325fb741e5900de00e35e263",
+    "url": "/Dateb.ai/static/media/asad.24bda26b.jpg"
   },
   {
     "revision": "1d1113fcc201ba3fd8c77aa5981e075b",
@@ -60,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Dateb.ai/static/media/dataScience.5f48b290.jpg"
   },
   {
+    "revision": "44f28ff5ddf738f8add1df097a7cb4c1",
+    "url": "/Dateb.ai/static/media/downUpArrow.44f28ff5.png"
+  },
+  {
     "revision": "8f78fcbbf1d212054b9d34ac72f5d8d4",
     "url": "/Dateb.ai/static/media/expense.8f78fcbb.jpg"
   },
@@ -80,12 +88,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Dateb.ai/static/media/mousedown.5af703e4.gif"
   },
   {
+    "revision": "a4da361393c653d6a9c13ed4f48b29fd",
+    "url": "/Dateb.ai/static/media/office.a4da3613.jpg"
+  },
+  {
     "revision": "29945f1f166870b2157b1527f5c2dc56",
     "url": "/Dateb.ai/static/media/pay.29945f1f.png"
   },
   {
     "revision": "b468033c2a1363403b174dd7f6795faa",
     "url": "/Dateb.ai/static/media/projects.b468033c.png"
+  },
+  {
+    "revision": "f0f6947f693941161f11bb51163240e4",
+    "url": "/Dateb.ai/static/media/qasim.f0f6947f.jpg"
   },
   {
     "revision": "8c2acb4e5c4d6488c218e4ce33976d79",
@@ -108,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Dateb.ai/static/media/staticWeb.08a3587d.jpg"
   },
   {
-    "revision": "1d7927dcf8a82796628d6d8333da8079",
-    "url": "/Dateb.ai/static/media/webDev.1d7927dc.jpg"
+    "revision": "50bf4a3f35837b937cdec4664f0167ce",
+    "url": "/Dateb.ai/static/media/webDev.50bf4a3f.jpg"
   },
   {
     "revision": "6341b5f1b6dbc8d3ae7d8af4f97021b1",
