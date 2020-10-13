@@ -34,6 +34,8 @@
 .appbar-menu li:hover{
   cursor: pointer;
 }
+
+
 @media only screen and (max-width: 768px) {
     /* For mobile: */
    #menuButton{
@@ -91,3 +93,6 @@ table {
 /* .appbar-menu .headerHover:hover{
   width: 57px;
 } */
+.appbar-menu .li3{
+padding-right: 5px;
+}

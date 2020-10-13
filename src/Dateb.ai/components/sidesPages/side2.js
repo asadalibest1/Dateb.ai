@@ -4,7 +4,7 @@ import "../css/slidestyle.css"
 
 export default function Side2() {
     return (
-      <div className="main-grid2-div">
+      <div className="main-grid2-div" id="scroll-enquire-now">
         <Grid className="main-grid2" container id="TEgrid1">
         
         <Grid item xs={12} sm={6} className="grid1"

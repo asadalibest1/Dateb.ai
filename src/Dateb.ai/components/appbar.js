@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
 export default function ButtonAppBar() {
   const [titleColor, changeTitleColor] = React.useState('white')
   const [titleFont, changeTitleFont] = React.useState('')
-  const [menuBarNum, changeMenuBarNum] = React.useState('')
+  // const [headerHover, changeheaderHover] = React.useState('white')
   const classes = useStyles();
  
  
@@ -28,6 +28,7 @@ export default function ButtonAppBar() {
       if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
           document.getElementsByClassName('appbar')[0].style.backgroundColor ="white";
           // document.getElementsByClassName('title')[0].style.color = "rgba(0, 0, 0, 0.8)";
+          // document.getElementsByClassName('headerHover')[0].style.border = "1.5px solid rgba(0, 0, 0, 0.8)";
             changeTitleColor("#000000");
           document.getElementsByClassName('menu')[0].style.color = "black";
               if (isMobile){
@@ -46,8 +47,8 @@ export default function ButtonAppBar() {
               }
         else{
           document.getElementsByClassName('appbar')[0].style.backgroundColor ="transparent";
-          // document.getElementsByClassName('title')[0].style.color = "white";
-              changeTitleColor('white');
+          changeTitleColor('white');
+          // document.getElementsByClassName('headerHover')[0].style.border = "1.5px solid white";
           document.getElementsByClassName('menu')[0].style.color = "white";
             if (isMobile){
                     changeTitleFont("9vw")
@@ -74,13 +75,14 @@ export default function ButtonAppBar() {
 
   const MouseOver=(num)=>{
     
-    document.getElementById(`headerHover${num}`).style.width="57px";
-    document.getElementById(`headerHover${num}`).style.border="1.5px solid white";
+    document.getElementById(`headerHover${num}`).style.width= "57px";
+    document.getElementById(`headerHover${num}`).style.border= `1.5px solid ${titleColor}`;
+    document.getElementById(`headerHover${num}`).style.background= titleColor;
   }
   const MouseOut=(num)=>{
     // alert(num);
     document.getElementById(`headerHover${num}`).style.width="0px";
-    document.getElementById(`headerHover${num}`).style.border="0px solid white";
+    document.getElementById(`headerHover${num}`).style.border=`0px solid ${titleColor}`;
   }
 
   return (
@@ -114,7 +116,7 @@ export default function ButtonAppBar() {
                                     <br /><li className="headerHover" id="headerHover2"></li>
               </Link>            
               <Link to="scroll-Contact" smooth={true} duration={500}>
-                                      <li onMouseOver={()=>{MouseOver("3")}} onMouseOut={()=>{MouseOut("3")}}>Contact</li>
+                                      <li onMouseOver={()=>{MouseOver("3")}} onMouseOut={()=>{MouseOut("3")}} className="li3">Contact</li>
                                       <br /><li className="headerHover" id="headerHover3"></li>
               </Link>            
               </ul>      </div>

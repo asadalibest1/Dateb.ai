@@ -83,7 +83,7 @@ export default function Footer() {
         <h5>Copyright © 2020 Dateb.ai - All Rights Reserved</h5>
         <p>created by: Dateb.ai</p>
           
-          <Link onClick={()=>{Scroll.scrollToTop()}} >
+          <Link to="" onClick={()=>{Scroll.scrollToTop()}} >
           <div className="Back-to-Top">
           Back to Top
           </div>

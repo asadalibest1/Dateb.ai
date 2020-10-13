@@ -32,10 +32,10 @@ export default function JoinUS() {
   <div className="c-form">
     <input className="c-form__input" placeholder="Name" type="text" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" required />
 
-    <label className="c-form__buttonLabel" for="checkbox1">
+    <label className="c-form__buttonLabel" htmlFor="checkbox1">
       <button className="c-form__button" type="button">Name</button>
     </label>
-    <label className="c-form__toggle" for="checkbox1" data-title="Name"></label>
+    <label className="c-form__toggle" htmlFor="checkbox1" data-title="Name"></label>
   </div>
 </div>
 
@@ -46,10 +46,10 @@ export default function JoinUS() {
   <div className="c-form">
     <input className="c-form__input" placeholder="Email" type="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" required />
 
-    <label className="c-form__buttonLabel" for="checkbox2">
+    <label className="c-form__buttonLabel" htmlFor="checkbox2">
       <button className="c-form__button" type="button">Email</button>
     </label>
-    <label className="c-form__toggle" for="checkbox2" data-title="Email"></label>
+    <label className="c-form__toggle" htmlFor="checkbox2" data-title="Email"></label>
   </div>
 </div>
 </div>

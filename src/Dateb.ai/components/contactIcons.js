@@ -2,7 +2,6 @@ import React from 'react'
 import './contactIcons.css'
 import $ from 'jquery'
 
-import IconButton from '@material-ui/core/IconButton';
 import FacebookIcon from '@material-ui/icons/Facebook'
 import PersonIcon from '@material-ui/icons/Person';
 import TwitterIcon from '@material-ui/icons/Twitter';
@@ -23,7 +22,7 @@ export default function ContactIcons() {
             var flag=0;
             
             $('.share').on('click',function(){
-             if(flag == 0)
+             if(flag === 0)
               {
                 $(this).siblings('.one').animate({
                 top:'180px',
